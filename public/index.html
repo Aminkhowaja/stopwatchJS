@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<img src="sign.png" alt="Amin">
+    <div id="main">
+        
+        <div id="first">
+            <p id="hours">0</p>
+        </div>
+        <div id="dt">
+            <h1 id="dot">:</h1>
+        </div>
+        <div id="second">
+            <p id="minutes">0</p>
+        </div>
+        <div id="dt1">
+            <h1 id="dot">:</h1>
+        </div>
+        <div id="third">
+            <p id="seconds">0</p>
+            <div id="four">
+                <p id="milli">0</p>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <h1 id="hr">Hours</h1>
+        <h1 id="min">Minutes</h1>
+        <h1 id="sec">Seconds</h1>
+    </div>
+    <div>
+        <button class="btn1" onclick="startWatch()">Start</button>
+        <button class="btn2" onclick="resetWatch()">Reset</button>
+        <button class="btn3" onclick="stopWatch()">Stop</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
